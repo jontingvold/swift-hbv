@@ -1,0 +1,26 @@
+# CATCHMENT PARAMETERS
+# Hagabru, Gaula, Trøndelag
+
+catchmentArea: 3059.5  # (km^2)
+seconds_per_timestep: 86400
+h_obs: 738             # Elevation of weather observations (masl)
+
+H_min: 57              # Lowest elevation in catchment
+H_10: 445              # 10-percentile elevation in catchment
+H_20: 539              # 20-percentile elevation in catchment
+H_30: 601              # 30-percentile elevation in catchment
+H_40: 666              # 40-percentile elevation in catchment
+H_50: 739              # 50-percentile elevation in catchment
+H_60: 815              # 60-percentile elevation in catchment
+H_70: 880              # 70-percentile elevation in catchment
+H_80: 947              # 80-percentile elevation in catchment
+H_90: 1020             # 90-percentile elevation in catchment
+H_max: 1325            # Highest elevation in catchment
+
+# Snow tank
+P_grad: 0.05           # Precipitation gradient per 100 meter
+T_dry_grad: -1.0       # Temperature gradient per 100 meter if not rain
+T_wet_grad: -0.6       # Temperature gradient per 100 meter if rain
+
+# Lower zone
+lake_percentage: 0.00  # Percent land which is lakes
